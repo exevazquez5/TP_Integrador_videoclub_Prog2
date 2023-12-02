@@ -36,6 +36,7 @@
             // 
             // dgvListadoGeneral
             // 
+            this.dgvListadoGeneral.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgvListadoGeneral.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListadoGeneral.Location = new System.Drawing.Point(31, 84);
             this.dgvListadoGeneral.Name = "dgvListadoGeneral";
@@ -46,6 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(233, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(300, 33);
@@ -54,18 +56,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(673, 31);
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Image = global::TP_integrador_prog2_videoclub.Properties.Resources.icons8_back_48;
+            this.button1.Location = new System.Drawing.Point(709, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 33);
+            this.button1.Size = new System.Drawing.Size(52, 52);
             this.button1.TabIndex = 2;
-            this.button1.Text = "ATRAS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.btnAtras);
             // 
             // formListadoGeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

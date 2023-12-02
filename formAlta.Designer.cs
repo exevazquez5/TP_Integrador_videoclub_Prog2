@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formAlta));
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txbDirector = new System.Windows.Forms.TextBox();
@@ -42,9 +43,9 @@
             this.txbPrecio = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txbCantRecibida = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.cbxGenero = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -163,23 +164,15 @@
             this.txbCantRecibida.Size = new System.Drawing.Size(115, 20);
             this.txbCantRecibida.TabIndex = 15;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(590, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 46);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "DAR ALTA PELICULA";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnAltaPelicula);
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(614, 22);
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(701, 22);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 46);
+            this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 18;
-            this.button2.Text = "ATRAS";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.btnAtras);
             // 
@@ -203,14 +196,29 @@
             this.cbxGenero.Size = new System.Drawing.Size(121, 21);
             this.cbxGenero.TabIndex = 19;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(610, 334);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(115, 56);
+            this.button3.TabIndex = 33;
+            this.button3.Text = "DAR ALTA";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btnAltaPelicula);
+            // 
             // formAlta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.cbxGenero);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txbCantRecibida);
             this.Controls.Add(this.label8);
@@ -248,8 +256,8 @@
         private System.Windows.Forms.TextBox txbPrecio;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txbCantRecibida;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox cbxGenero;
+        private System.Windows.Forms.Button button3;
     }
 }

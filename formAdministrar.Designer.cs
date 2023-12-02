@@ -46,6 +46,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(306, 160);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 53);
@@ -56,6 +57,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(306, 265);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 56);
@@ -66,18 +68,21 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(662, 24);
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Image = global::TP_integrador_prog2_videoclub.Properties.Resources.icons8_back_48;
+            this.button3.Location = new System.Drawing.Point(705, 28);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 41);
+            this.button3.Size = new System.Drawing.Size(52, 52);
             this.button3.TabIndex = 7;
-            this.button3.Text = "atras";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.btnAtras);
             // 
             // formAdministrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
