@@ -1,0 +1,16 @@
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\bin\Debug\TP_integrador_prog2_videoclub.exe.config
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\bin\Debug\TP_integrador_prog2_videoclub.exe
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\bin\Debug\TP_integrador_prog2_videoclub.pdb
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.csproj.AssemblyReference.cache
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.Properties.Resources.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.csproj.GenerateResource.cache
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.csproj.CoreCompileInputs.cache
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.exe
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.pdb
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.Form1.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.formAlta.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.formAdministrar.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.formBuscar.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.editarControl.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.formEditar.resources
+D:\Users\Exequiel\source\repos\TP_integrador_prog2_videoclub\obj\Debug\TP_integrador_prog2_videoclub.formListadoGeneral.resources
